@@ -9,11 +9,17 @@ a {
   outline: none;
   color: #000000;
 }
-.a {
+.web {
   display: grid;
+  background-color: #e9d490;
   grid-template-columns: 3em auto;
   grid-template-rows: 3em auto;
-  border: 1px solid #000000;
+  border-radius: 11px;
+  box-shadow: 0 0 0 0 #000000;
+  transition: 0.25s;
+}
+.web:hover {
+  box-shadow: 0 0 5px 0 #000000;
 }
 .title {
   margin: 5px;
